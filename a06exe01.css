@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e7e6e1;
+    text-align: center;
+    scroll-behavior: smooth;
+    width: 600px;
+  }
+  h1{
+    text-align: center;
+  }
+  
+  h3 {
+    color: #333;
+  }
+  
+  #concluida{
+    background-color: #046411;
+  }
+  #inconclusa{
+    background-color: #e7ad0e;
+  }
+  
+  ul {
+    list-style: square;
+    padding: 0;
+  }
+  
+  li {
+    border: solid 4px #046411;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+  }
